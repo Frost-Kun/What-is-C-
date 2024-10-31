@@ -7,7 +7,7 @@
 using namespace std;
 int main() {
     freopen("input.txt", "r", stdin);
-    freopen("output.txt", "r", stdout);
+    freopen("output.txt", "w", stdout);
     int n, m, k, q;
     cin >> n >> m >> k >> q;
   
