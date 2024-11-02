@@ -46,8 +46,8 @@ long long minCostToReorder(const vector<int>& weights, const vector<int>& initia
 }
 // input the main problem number in the problem
 int main(){
-    freopen("input.txt","w", stdin);
-    freopen("output.txt", "r", stdout);
+    freopen("input.txt","r", stdin);
+    freopen("output.txt", "w", stdout);
     int n;
     cin >> n;
             vector<int> weight(n),initial(n), target(n);
