@@ -54,7 +54,7 @@ int main(){
 
         for(int i = 0; i < n; i++) cin >> weight[n];
         for(int i = 0; i < n; i++) cin >> initial[n];
-        for(int i = 00; i < n; i++) cin >> target[n];
+        for(int i = 0; i < n; i++) cin >> target[n];
             cout << minCostToReorder(weight, initial, target) << endl;
     return 0;
 
